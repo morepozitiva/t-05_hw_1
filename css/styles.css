@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+*{
+   box-sizing: border-box;
+}
+
+a, button{
+   transition: all .3 ease-in;
+}
+
+html{
+   font-size: 10px;
+}
+
+body{
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 400;
+   font-size: 1.5rem;
+   background-color: #121116;
+   color: #ffffff;
+   position: relative;
+   min-height: 100vh;
+}
+
+.container{
+   max-width: 1400px;
+   margin: 0;
+   padding: 0;
+}
+
+.footer{ 
+   position: absolute;
+   text-align: center;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.footer__logo{
+   margin: 22px 0 0;
+}
+
+.footer__social{
+   text-align: center;
+}
+
+.footer__social p{
+   text-transform: uppercase;
+   font-size: 2rem;
+   margin: 34px 0 18px;
+}
+
+.footer__social__icons{
+   list-style: none;
+   display: flex;  
+   justify-content: space-between; 
+   padding: 0 40px;
+}
+
+.icons__items{
+   padding: 0 31px;
+}
+
+.icons__items a{
+   color: #ffffff;
+}
+
+.icons__items a:hover,
+.icons__items a:focus,
+.icons__items a:active{
+   color: #ff7f50;
+}
+
+.footer__copy{
+   font-weight: 700;
+   margin: 70px 0 0;
+}
+
+a.copy-link {
+   color: #00c7fc;
+   text-decoration: none;
+   border-bottom: 1px dotted transparent;
+}
+
+a.copy-link:hover,
+a.copy-link:focus,
+a.copy-link:active{
+   border-bottom: 1px dotted #00c7fc;
+}
